@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.logwire.RunCucumberTest" time="59.861" tests="26" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.logwire.RunCucumberTest" time="21.377" tests="26" errors="0" skipped="19" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire7142150719187423578\surefirebooter-20250307150553520_3.jar C:\Users\User\AppData\Local\Temp\surefire7142150719187423578 2025-03-07T15-05-53_128-jvmRun1 surefire-20250307150553520_1tmp surefire_0-20250307150553520_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire12302359124307420893\surefirebooter-20250307152309433_3.jar C:\Users\User\AppData\Local\Temp\surefire12302359124307420893 2025-03-07T15-23-08_979-jvmRun1 surefire-20250307152309433_1tmp surefire_0-20250307152309433_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\User\Downloads\jenkins-selenuim-cucmber\saucedemo\target\test-classes;C:\Users\User\Downloads\jenkins-selenuim-cucmber\saucedemo\target\classes;C:\Users\User\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\User\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\User\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\User\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\User\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\User\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\User\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\User\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.1\cucumber-junit-platform-engine-7.11.1.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-suite\1.9.2\junit-platform-suite-1.9.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.2\junit-platform-suite-api-1.9.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.2\junit-platform-suite-engine-1.9.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.2\junit-platform-suite-commons-1.9.2.jar;C:\Users\User\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\User\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar;C:\Users\User\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar;C:\Users\User\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar;C:\Users\User\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,9 +30,10 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire7142150719187423578\surefirebooter-20250307150553520_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire12302359124307420893\surefirebooter-20250307152309433_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="cucumber.plugin" value="html:reports/rapportProduits.html"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
     <property name="user.name" value="User"/>
     <property name="stdout.encoding" value="Cp1252"/>
@@ -40,12 +41,12 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\User\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
     <property name="java.version" value="23.0.2"/>
+    <property name="cucumber.filter.tags" value="@produits"/>
     <property name="user.dir" value="C:\Users\User\Downloads\jenkins-selenuim-cucmber\saucedemo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -59,8 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="ajouter les produits aux panier" classname="Panier" time="2.757">
-    <system-err><![CDATA[mars 07, 2025 3:05:54 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+  <testcase name="ajouter les produits aux panier" classname="Panier" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+    <system-err><![CDATA[mars 07, 2025 3:23:11 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
 WARNING: Failed to load class 'net.bytebuddy.dynamic.loading.ClassInjector$UsingJna$Dispatcher$Windows32BitFunctionMapper'.
 By default Cucumber scans the entire classpath for step definitions.
 You can restrict this by configuring the glue path.
@@ -171,7 +173,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.FunctionMapper
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
 	... 94 more
 
-mars 07, 2025 3:05:54 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+mars 07, 2025 3:23:11 PM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
 WARNING: Failed to load class 'net.bytebuddy.dynamic.loading.ClassInjector$UsingJna$Dispatcher$Jvm'.
 By default Cucumber scans the entire classpath for step definitions.
 You can restrict this by configuring the glue path.
@@ -282,132 +284,94 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
 	... 94 more
 
-mars 07, 2025 3:05:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+]]></system-err>
+  </testcase>
+  <testcase name="valider les achat" classname="Panier" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="ne pas continuer si aucun article est ajoute" classname="Panier" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="informations valides" classname="checkout" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="fomulaire rempli avec des espace" classname="checkout" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="2.53">
+    <system-err><![CDATA[mars 07, 2025 3:23:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="valider les achat" classname="Panier" time="2.062">
-    <system-err><![CDATA[mars 07, 2025 3:05:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="Example #1.2" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.2" classname="Examples" time="2.344">
+    <system-err><![CDATA[mars 07, 2025 3:23:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="ne pas continuer si aucun article est ajoute" classname="Panier" time="1.953">
-    <system-err><![CDATA[mars 07, 2025 3:06:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="Example #1.3" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.3" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.3" classname="Examples" time="2.298">
+    <system-err><![CDATA[mars 07, 2025 3:23:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="informations valides" classname="checkout" time="2.325">
-    <system-err><![CDATA[mars 07, 2025 3:06:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="Example #1.4" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.4" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1.4" classname="Examples" time="2.348">
+    <system-err><![CDATA[mars 07, 2025 3:23:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="fomulaire rempli avec des espace" classname="checkout" time="2.4">
-    <system-err><![CDATA[mars 07, 2025 3:06:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="Example #1.5" classname="Examples" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="calcul du totale hors tax" classname="checkoutOverview" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="calcul du totale TTC" classname="checkoutOverview" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="finaliser la commande" classname="checkoutOverview" time="0">
+    <skipped message="&apos;cucumber.filter.tags=@produits&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Verification de la liste des produits" classname="Produits" time="3.462">
+    <system-err><![CDATA[mars 07, 2025 3:23:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="2.327">
-    <system-err><![CDATA[mars 07, 2025 3:06:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="verification de l ajout des produits" classname="Produits" time="2.79">
+    <system-err><![CDATA[mars 07, 2025 3:23:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="1.738">
-    <system-err><![CDATA[mars 07, 2025 3:06:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="1.751">
-    <system-err><![CDATA[mars 07, 2025 3:06:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="1.82">
-    <system-err><![CDATA[mars 07, 2025 3:06:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="2.291">
-    <system-err><![CDATA[mars 07, 2025 3:06:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="1.66">
-    <system-err><![CDATA[mars 07, 2025 3:06:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="1.618">
-    <system-err><![CDATA[mars 07, 2025 3:06:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="1.823">
-    <system-err><![CDATA[mars 07, 2025 3:06:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="2.308">
-    <system-err><![CDATA[mars 07, 2025 3:06:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="6.719">
-    <system-err><![CDATA[mars 07, 2025 3:06:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="2.003">
-    <system-err><![CDATA[mars 07, 2025 3:06:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.4" classname="Examples" time="2.408">
-    <system-err><![CDATA[mars 07, 2025 3:06:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.4" classname="Examples" time="1.751">
-    <system-err><![CDATA[mars 07, 2025 3:06:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.4" classname="Examples" time="1.866">
-    <system-err><![CDATA[mars 07, 2025 3:06:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Example #1.5" classname="Examples" time="1.695">
-    <system-err><![CDATA[mars 07, 2025 3:06:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="calcul du totale hors tax" classname="checkoutOverview" time="2.422">
-    <system-err><![CDATA[mars 07, 2025 3:06:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="calcul du totale TTC" classname="checkoutOverview" time="2.38">
-    <system-err><![CDATA[mars 07, 2025 3:06:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="finaliser la commande" classname="checkoutOverview" time="2.617">
-    <system-err><![CDATA[mars 07, 2025 3:06:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="Verification de la liste des produits" classname="Produits" time="1.897">
-    <system-err><![CDATA[mars 07, 2025 3:06:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="verification de l ajout des produits" classname="Produits" time="1.965">
-    <system-err><![CDATA[mars 07, 2025 3:06:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="retrait des produits" classname="Produits" time="2.255">
-    <system-err><![CDATA[mars 07, 2025 3:06:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="retrait des produits" classname="Produits" time="3.265">
+    <system-err><![CDATA[mars 07, 2025 3:23:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
