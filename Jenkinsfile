@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script {
                     // Exécuter les tests Maven dans le conteneur
-                    sh 'mvn test -D cucumber.plugin="html:reports/rapportTotal.html" -D browser="chrome"'
+                    sh 'mvn test -D cucumber.plugin="json:reports/cucumber-report.html:reports/rapportTotal.html" -D browser="chrome"'
                 }
             }
         }
@@ -43,7 +43,7 @@ pipeline {
                         [key: 'Submitter', value: '${GERRIT_PATCHSET_UPLOADER_NAME}']
                     ],
                     reportTitle: 'My report',
-                    fileIncludePattern: '**/*.cucumber.json',
+                    fileIncludePattern: '**/*.reports.html',
                     sortingMethod: 'ALPHABETICAL',
                     trendsLimit: 100
 
