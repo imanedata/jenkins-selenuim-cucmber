@@ -39,8 +39,8 @@ pipeline {
                     skippedStepsNumber: 1,
                     failedStepsNumber: 1,
                     classifications: [
-                        [key: 'Commit', value: '<a href="${GERRIT_CHANGE_URL}">${GERRIT_PATCHSET_REVISION}</a>'],
-                        [key: 'Submitter', value: '${GERRIT_PATCHSET_UPLOADER_NAME}']
+                     [key: 'Commit', value: 'Commit ID non disponible'],
+                       [key: 'Submitter', value: 'Nom du soumetteur non disponible']
                     ],
                     reportTitle: 'My report',
                     fileIncludePattern:  'reports/cucumber-report.json',
