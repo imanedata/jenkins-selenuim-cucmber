@@ -25,7 +25,9 @@ pipeline {
             steps {
                 script {
                     // Exécuter les tests Maven dans le conteneur
+                   
                     sh 'mvn test -D cucumber.plugin="json:reports/cucumber-report.json,html:reports/rapportTotal.html" -D browser="chrome"'
+                    sh 'cat reports/cucumber-report.json'
                 }
             }
         }
